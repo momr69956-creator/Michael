@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Michael · Arabic lessons</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Scheherazade+New:wght@500;600&display=swap">
+<style>
+:root{
+  --bg:#FAF8F4; --surface:#FFFFFF; --ink:#1F1D1A; --ink-2:#4A463F; --muted:#8B857A;
+  --line:#E9E4DB; --line-soft:#F1ECE4;
+  --accent:#0F6F5C; --accent-ink:#0B5748; --accent-soft:#E6F1ED;
+  --sans:"Instrument Sans", ui-sans-serif, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --arabic:"Scheherazade New", "Scheherazade", "Noto Naskh Arabic", "Geeza Pro", "Traditional Arabic", serif;
+  --shadow:0 1px 2px rgba(31,29,26,.05), 0 8px 24px -12px rgba(31,29,26,.12);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
+.ar{font-family:var(--arabic);direction:rtl;unicode-bidi:isolate;font-weight:600}
+header{background:var(--surface);border-bottom:1px solid var(--line)}
+.head-in{max-width:760px;margin:0 auto;padding:34px 24px 26px}
+h1{margin:0;font-size:30px;font-weight:600;letter-spacing:-.015em;line-height:1.15}
+.sub{margin-top:4px;color:var(--ink-2);font-size:15px}
+.meta{margin-top:12px;font-size:11px;font-weight:600;letter-spacing:.13em;text-transform:uppercase;color:var(--muted)}
+main{max-width:760px;margin:0 auto;padding:28px 24px 80px}
+.month{margin-bottom:34px}
+.month h2{margin:0 0 14px;font-size:11px;font-weight:600;letter-spacing:.13em;text-transform:uppercase;color:var(--muted)}
+.day{display:grid;grid-template-columns:56px 1fr;gap:16px;margin-bottom:14px}
+.date{display:flex;flex-direction:column;align-items:center;padding-top:14px}
+.dnum{font-size:26px;font-weight:600;line-height:1;font-variant-numeric:tabular-nums}
+.wday{margin-top:4px;font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.cards{display:flex;flex-direction:column;gap:10px;min-width:0}
+.card{display:block;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 18px 14px;
+  color:inherit;text-decoration:none;box-shadow:var(--shadow);transition:border-color .15s,transform .1s}
+.card:hover{border-color:#D5CEC2}
+.card:active{transform:scale(.99)}
+.card:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.card-top{display:flex;align-items:center;gap:10px}
+.card h3{margin:0;font-size:17px;font-weight:600;line-height:1.3}
+.card h3 .ar{font-size:1.3em;font-weight:600}
+.new{font-size:10.5px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);background:var(--accent-soft);padding:2px 7px;border-radius:999px}
+.kind{display:block;margin-bottom:3px;font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+.count{margin-left:auto;font-size:13px;color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
+.go{width:15px;height:15px;color:var(--muted);flex:none}
+.card:hover .go{color:var(--accent)}
+.chips{display:flex;flex-wrap:wrap;gap:6px 8px;margin-top:10px;direction:rtl;align-items:center}
+.chip{font-size:21px;line-height:1.5;padding:0 10px;border-radius:8px;background:var(--line-soft);color:var(--ink-2)}
+.more{direction:ltr;font-size:12.5px;color:var(--muted)}
+.empty{color:var(--muted)}
+@media (max-width:560px){
+  .head-in{padding:26px 16px 20px}
+  h1{font-size:26px}
+  main{padding:22px 16px 60px}
+  .day{grid-template-columns:40px 1fr;gap:10px}
+  .dnum{font-size:22px}
+  .card{padding:14px 14px 12px}
+  .chip{font-size:19px;padding:0 8px}
+}
+</style>
+</head>
+<body>
+<header><div class="head-in">
+<h1>Michael</h1>
+<div class="sub">Arabic lessons · Levantine dialect</div>
+<div class="meta">1 lesson</div>
+</div></header>
+<main>
+<section class="month"><h2>November 2026</h2>
+<div class="day" id="d2026-11-09"><div class="date"><span class="dnum">9</span><span class="wday">Mon</span></div><div class="cards"><a class="card" href="lessons/2026-11-09-imperative/"><span class="kind">Grammar</span><div class="card-top"><h3>The Imperative · <bdi class="ar">فعل الأمر</bdi></h3><span class="new">Latest</span><span class="count">23 slides · 181 recordings</span><svg class="go" viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div class="chips"><span class="chip ar">اكتب</span><span class="chip ar">اكتبي</span><span class="chip ar">اكتبوا</span><span class="chip ar">لا تكتب</span><span class="chip ar">تعا</span><span class="chip ar">كول</span><span class="more">+2 more</span></div></a></div></div>
+</section>
+</main>
+</body>
+</html>

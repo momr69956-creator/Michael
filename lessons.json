@@ -1,0 +1,22 @@
+{
+  "student": "Michael",
+  "lessons": [
+    {
+      "date": "2026-11-09",
+      "title": "The Imperative · فعل الأمر",
+      "kind": "Grammar",
+      "path": "lessons/2026-11-09-imperative/",
+      "count": "23 slides · 181 recordings",
+      "preview": [
+        "اكتب",
+        "اكتبي",
+        "اكتبوا",
+        "لا تكتب",
+        "تعا",
+        "كول",
+        "خود",
+        "هات"
+      ]
+    }
+  ]
+}
